@@ -1,0 +1,176 @@
+
+--- [START 2018-03-06_08-58-11] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 35202
+	PROJECT_PATH = /home/uesu/DSB2018/maskrcnn/code/dummy-15.4
+	out_dir      = /home/uesu/DSB2018/maskrcnn/results/mask-single-shot-dummy-12
+
+** net setting **
+<class 'net.resnet50_fpn_mask_single_shot_0.model.MaskSingleShotNet'>
+
+
+** dataset setting **
+
+--- [START 2018-03-06_08-59-59] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 35202
+	PROJECT_PATH = /home/uesu/DSB2018/maskrcnn/code/dummy-15.4
+	out_dir      = /home/uesu/DSB2018/maskrcnn/results/mask-single-shot-dummy-12
+
+** net setting **
+<class 'net.resnet50_fpn_mask_single_shot_0.model.MaskSingleShotNet'>
+
+
+** dataset setting **
+	WIDTH, HEIGHT = 192, 192
+	train_dataset.split = disk0_ids_dummy_9
+	valid_dataset.split = disk0_ids_dummy_9
+	len(train_dataset)  = 9
+	len(valid_dataset)  = 9
+	len(train_loader)   = 2
+	len(valid_loader)   = 3
+	batch_size  = 4
+	iter_accum  = 1
+	batch_size*iter_accum  = 4
+
+** start training here! **
+ optimizer=SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.01
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+ momentum=0.900000
+ LR=None
+
+ images_per_epoch = 9
+
+ rate    iter   epoch  num   | valid_loss               | train_loss               | batch_loss               |  time          
+-------------------------------------------------------------------------------------------------------------------------------
+
+--- [START 2018-03-06_09-01-20] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 35202
+	PROJECT_PATH = /home/uesu/DSB2018/maskrcnn/code/dummy-15.4
+	out_dir      = /home/uesu/DSB2018/maskrcnn/results/mask-single-shot-dummy-12
+
+** net setting **
+<class 'net.resnet50_fpn_mask_single_shot_0.model.MaskSingleShotNet'>
+
+
+** dataset setting **
+	WIDTH, HEIGHT = 192, 192
+	train_dataset.split = disk0_ids_dummy_9
+	valid_dataset.split = disk0_ids_dummy_9
+	len(train_dataset)  = 9
+	len(valid_dataset)  = 9
+	len(train_loader)   = 2
+	len(valid_loader)   = 3
+	batch_size  = 4
+	iter_accum  = 1
+	batch_size*iter_accum  = 4
+
+** start training here! **
+ optimizer=SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.01
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+ momentum=0.900000
+ LR=None
+
+ images_per_epoch = 9
+
+ rate    iter   epoch  num   | valid_loss               | train_loss               | batch_loss               |  time          
+-------------------------------------------------------------------------------------------------------------------------------
+0.0000   0.0 k    0.0  0.0 m | 1.647   0.17 0.09   0.69 | 0.000   0.00 0.00   0.00 | 0.000   0.00 0.00   0.00 |  0 hr 00 min
+
+--- [START 2018-03-06_09-01-47] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 35202
+	PROJECT_PATH = /home/uesu/DSB2018/maskrcnn/code/dummy-15.4
+	out_dir      = /home/uesu/DSB2018/maskrcnn/results/mask-single-shot-dummy-12
+
+** net setting **
+<class 'net.resnet50_fpn_mask_single_shot_0.model.MaskSingleShotNet'>
+
+
+** dataset setting **
+	WIDTH, HEIGHT = 192, 192
+	train_dataset.split = disk0_ids_dummy_9
+	valid_dataset.split = disk0_ids_dummy_9
+	len(train_dataset)  = 9
+	len(valid_dataset)  = 9
+	len(train_loader)   = 2
+	len(valid_loader)   = 3
+	batch_size  = 4
+	iter_accum  = 1
+	batch_size*iter_accum  = 4
+
+** start training here! **
+ optimizer=SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.01
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+ momentum=0.900000
+ LR=None
+
+ images_per_epoch = 9
+
+ rate    iter   epoch  num   | valid_loss               | train_loss               | batch_loss               |  time          
+-------------------------------------------------------------------------------------------------------------------------------
+0.0000   0.0 k    0.0  0.0 m | 1.647   0.17 0.09   0.69 | 0.000   0.00 0.00   0.00 | 0.000   0.00 0.00   0.00 |  0 hr 00 min
+
+--- [START 2018-03-06_09-03-03] ----------------------------------------------------------------
+
+** some experiment setting **
+	SEED         = 35202
+	PROJECT_PATH = /home/uesu/DSB2018/maskrcnn/code/dummy-15.4
+	out_dir      = /home/uesu/DSB2018/maskrcnn/results/mask-single-shot-dummy-12
+
+** net setting **
+<class 'net.resnet50_fpn_mask_single_shot_0.model.MaskSingleShotNet'>
+
+
+** dataset setting **
+	WIDTH, HEIGHT = 192, 192
+	train_dataset.split = disk0_ids_dummy_9
+	valid_dataset.split = disk0_ids_dummy_9
+	len(train_dataset)  = 9
+	len(valid_dataset)  = 9
+	len(train_loader)   = 2
+	len(valid_loader)   = 3
+	batch_size  = 4
+	iter_accum  = 1
+	batch_size*iter_accum  = 4
+
+** start training here! **
+ optimizer=SGD (
+Parameter Group 0
+    dampening: 0
+    lr: 0.01
+    momentum: 0.9
+    nesterov: False
+    weight_decay: 0.0001
+)
+ momentum=0.900000
+ LR=None
+
+ images_per_epoch = 9
+
+ rate    iter   epoch  num   | valid_loss               | train_loss               | batch_loss               |  time          
+-------------------------------------------------------------------------------------------------------------------------------
+0.0000   0.0 k    0.0  0.0 m | 1.647   0.17 0.09   0.69 | 0.000   0.00 0.00   0.00 | 0.000   0.00 0.00   0.00 |  0 hr 00 min
