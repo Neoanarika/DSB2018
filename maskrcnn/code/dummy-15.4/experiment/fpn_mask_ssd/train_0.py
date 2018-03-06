@@ -98,6 +98,7 @@ def run_train():
     #initial_checkpoint = \
     #    RESULTS_DIR + '/mask-single-shot-dummy-12/checkpoint/00001400_model.pth'
         ##None #
+    #To prevent filenotfound error 
     initial_checkpoint = None
     pretrain_file = \
         None #RESULTS_DIR + '/mask-single-shot-dummy-1a/checkpoint/00028000_model.pth'
