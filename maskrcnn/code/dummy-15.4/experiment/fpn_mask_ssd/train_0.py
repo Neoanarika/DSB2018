@@ -95,10 +95,10 @@ def evaluate( net, test_loader ):
 def run_train():
 
     out_dir  = RESULTS_DIR + '/mask-single-shot-dummy-12'
-    initial_checkpoint = \
-        RESULTS_DIR + '/mask-single-shot-dummy-12/checkpoint/00001400_model.pth'
+    #initial_checkpoint = \
+    #    RESULTS_DIR + '/mask-single-shot-dummy-12/checkpoint/00001400_model.pth'
         ##None #
-
+    initial_checkpoint = None
     pretrain_file = \
         None #RESULTS_DIR + '/mask-single-shot-dummy-1a/checkpoint/00028000_model.pth'
     skip = ['crop','mask']
